@@ -23,6 +23,8 @@ class CustomHomeAppBarBody extends StatelessWidget
         SizedBox(width: MediaQuery.sizeOf(context).width * 0.22),
 
         const ProfileImage(),
+
+        const SizedBox.shrink()
       ],
     );
   }
